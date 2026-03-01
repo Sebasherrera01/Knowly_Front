@@ -6,15 +6,7 @@
 
 - Descripción del problema que se busca resolver  
 
-En la actualidad, muchas personas buscan aprender de manera independiente y flexible, mientras que profesores y expertos desean compartir sus conocimientos y generar ingresos adicionales. Sin embargo, existen limitaciones como por ejemplo las plataformas son muy costosas, e incluso carecen de material de estudio, las personas que realizan los cursos no tiene como esa credencialidad del certificado
-
-
-- Justificación: ¿por qué es relevante? (impacto social, académico, empresarial, etc.)  
-
-Desarrollar una plataforma local (que siempre que este conectada al internet pueda  funcionar si no no deja ingresar) con tal de que los estudiantes puedan acceder en cualquier lugar y hora en el mundo  y sus estudios se llevan de  forma independiente, ademas los profesores  generan ingresos y comparten conocimientos
-
-- Breve descripción del dominio / temática del proyecto integrador
-
+En la actualidad, muchas personas buscan aprender de manera independiente y flexible, mientras que profesores y expertos desean compartir sus conocimientos y generar ingresos adicionales. Sin embargo, existen limitaciones como por ejemplo las plataformas son muy costosas, e incluso carecen de material de estudio, las personas que realizan los cursos no tiene como esa credencialidad del certificado.
 
 es hacer una plataforma donde la monetizacion directa y el aprendizaje independiente, por lo cual las personas pagan suscripcion por algo esclusivo, cada curso tiene su certificado y se puede tener fors y hacer comentarios he incluso tener un chat con el profesor donde las preguntas se pueden ver, no solo el profe si no los otros usuarios, ademas pueden subir actividades realizadas y hacer un examen 
 
@@ -59,6 +51,37 @@ Permite la gestión financiera tanto para miembros como para administradores.
 • Administración de membresías: Opciones para cambiar de plan, cancelar suscripciones y ver el historial de pagos.
 • Pasarela de pagos: Actualización de métodos de pago (tarjetas) y gestión de reembolsos.
 • Monetización: Sistema para gestionar cuentas bancarias para cobros y programas de referidos con comisiones de afiliado.
+
+*** Pasos de instalacion**
+
+[]
+
+*** Comandos de instalacion ***
+npm install o npm i: es para instalar dependencias de node_modules(es muy importante)
+npm install tailwindcss @tailwindcss/vite : instalar tailwindcss parra los estilos
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+
+
+
+export default defineConfig({ |
+  plugins: [                  |
+    tailwindcss(),            |-> configuracion en el vite para que funcione tailwindcss(mirar documentacion)
+  ],                          |
+})                            |
+
+
+*** Estructura del proyecto ***
+
+src/
+├── assets/ # Recursos estáticos: imágenes, logos y estilos globales
+├── components/ # Componentes de UI reutilizables (Navbar, Footer, Buttons)
+├── helpers/ # Funciones de utilidad (validaciones, formateo)
+├── pages/ # Vistas de alto nivel (Home, Login, etc.)
+├── services/ # Lógica de comunicación con el Backend (vacio por ahora)
+├── router/ # Configuración de navegación (vacio por ahora)
+├── App.jsx # Orquestador principal de la vista actual
+└── main.jsx # Punto de entrada de React
 
 
 

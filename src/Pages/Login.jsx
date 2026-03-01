@@ -3,7 +3,11 @@ import "./App.css"
 
 import React from "react"
 
-
+/*
+login de inicio para  que el usuario ingrese ala pagina principal
+su primera vista es esta pagina por lo cual falta conectarla con el app.jsx  y el home.jsx con un layout 
+para poder asi ver la pagina como tal, esta incorporado  el tailwind para los estilos, ya esta configurado solo es ver la documentacion 
+*/
 
 function Login() {
   return (
