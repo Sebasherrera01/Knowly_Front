@@ -4,11 +4,11 @@ import "./App.css"
 import React from "react"
 
 
+
 function App() {
   return (
 
-
-
+    
 
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-purple-700 to-purple-500 p-4">
       <div className="bg-white rounded-3xl shadow-2xl p-10 w-full max-w-md">
