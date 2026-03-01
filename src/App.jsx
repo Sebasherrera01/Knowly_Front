@@ -4,11 +4,12 @@ import "./App.css"
 import React from "react"
 
 
-
-
-
 function App() {
   return (
+
+
+
+
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-purple-700 to-purple-500 p-4">
       <div className="bg-white rounded-3xl shadow-2xl p-10 w-full max-w-md">
         
@@ -49,13 +50,13 @@ function App() {
           </div>
 
           
-          <button
+          <button 
             type="submit"
             className="w-full bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-105 active:scale-95 shadow-lg"
             
           >
             Iniciar sesión
-          </button>
+          </button >
         </div>
 
        
