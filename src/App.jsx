@@ -4,7 +4,7 @@ import React from 'react'
 	return (
 		<div>
 			<h1>Knowly</h1>
-			<p>Bienvenido a la app.</p>
+			<p>Bienvenido a knowly</p>
 		</div>
 	)
 }
