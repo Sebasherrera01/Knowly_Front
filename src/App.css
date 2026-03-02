@@ -31,7 +31,7 @@ body{
     background: rgba(255, 255, 255, 0.2); 
     /* Transparencia */ backdrop-filter: blur(10px);
      /* Difuminado */ -webkit-backdrop-filter: blur(10px); 
-      border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3)
 }
 
 .NavBar img {
@@ -68,13 +68,61 @@ footer {
 } 
 
 footer a {
-     color: #ffcc00; 
-     text-decoration: none; 
-     margin: 0 10px; 
+    color: #ffcc00; 
+    text-decoration: none; 
+    margin: 0 10px; 
     
 } 
 
 footer a:hover {
     
     text-decoration: underline; 
+}
+
+.Card{
+    width: 320px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.12);
+    display: grid;
+    gap: 10px;
+}
+
+.Card__img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    background: #eee;
+}
+
+.Card__title{ margin: 0; font-size: 18px; }
+.Card__desc{ margin: 0; opacity: .8; }
+.Card__price{ font-weight: 700; font-size: 18px; }
+
+.Card__btn{
+    border: 0;
+    border-radius: 12px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.Cards-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* para que bajen si no caben */
+    padding: 40px;
+}
+
+.app{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+  flex: 1;                 /* empuja el footer hacia abajo */
+  padding: 24px;           /* separación del header y bordes */
+  padding-top: 40px;       /* más aire debajo del header */
 }
