@@ -15,13 +15,14 @@ const NavBar = function () {
         <Link to="/contacto">contacto</Link>
         <Link to="/blogs">blogs</Link>
         <Link to="/certificados">certificado</Link>
-        <Link to="/login">Acceder</Link>
-
-
         {/* Tarjeta Membresía */}
         <div onClick={() => setOpen(!open)} style={{ cursor: "pointer" }}>
           Membresía
         </div>
+        <Link to="/login"className="btn-acceder">Acceder</Link>
+
+
+        
 
         {/* Subtarjeta Estudiantes */}
         {open && (
