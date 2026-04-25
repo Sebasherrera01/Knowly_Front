@@ -33,7 +33,7 @@ function Blogs() {
   ];
 
   return (
-    <div className="main">
+    <div className="main text-black">
       <h2>Blogs</h2>
       <p className="subtitle">Métodos de aprendizaje y herramientas para tu desarrollo</p>
       <div className="Cards-container">
