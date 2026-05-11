@@ -2,10 +2,9 @@
 
 [knowly]
 
-## simulacion de la api temporal
-con mokapi creamos una entidad de usuario y lo conectamos por ende es una simulacion y toco que tener otra forma de poder capturar datos con la api por lo cual hice algunos cambios en las peticiones y por ende se ve cambio de nombre en la contraseña ya que mokapi no permite la ñ por ende se llama "contrasea"
-
-api conectada de mokapi : https://69e57d38ce4e908a155e1726.mockapi.io/usuario, de ahi hace todo lla peticion del fetch y devuelve los datos mediante a  su peticion, gracias al get que consulta ___________________________ esta configuracion en la api.js es temporal
+## consumo de la api del back
+https://github.com/sharon-Asprilla/knowly_back
+trae los datos de la api
 
 ## Introducción
 
